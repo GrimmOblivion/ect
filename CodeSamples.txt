@@ -1,0 +1,58 @@
+for loop:
+int sum = 0;
+    for (int i = 1; i < 100; i++){
+	sum +=i;
+	}
+
+
+function variables return:
+void bool myfunction(float num1, float num2){
+    if(num1 == num2){
+	return true;
+    }
+    else{
+	return false;
+    }
+}
+//style points
+void bool MyFunction2(float n1, float n2){
+    return (n1 == n2);
+}
+
+
+bool true/false
+bool1 = true, bool2 = false, bool3 = true, bool4 = false
+
+bool1 && bool2 || !bool2 && bool3 && !bool4 && !bool1 || bool1 && bool4
+true  && false || true   && true  && true   && false  || true && false
+false          ||  false			      || false
+end result: false
+
+
+if/else statment
+float number = 5;
+if(number >= 10){
+    DeBug.Log("Success");
+}
+else{
+    DeBug.Log("failure");
+}
+
+
+variables
+int
+    number = 5;
+    HP, exp, level
+floats
+    decimal = 2.43f;
+    crit chance, damage
+bool
+    tf = true;
+    fs = false;
+Vector2
+    velocity = new Vector2(0,0);
+Vector3
+   position = new Vector3 (0,0,0)
+   position and D direction 
+string
+   words = ("Hello World!");

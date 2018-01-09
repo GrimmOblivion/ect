@@ -1,0 +1,16 @@
+git clone URL
+	This creates a copy of a repository. You can find the repo URL on github.com
+git status
+	Show the status of the project. Are there uncommitted files, etc. 
+
+Push progression steps:
+1.git pull
+	This pulls all recent changes to the project and overrides your files with the changed files. Any unchanged files in the repo will not be copied
+2.git add –A
+	This adds all your changes to prepare to be pushed. It does not push!
+3.git commit –m “Foo”
+	This prepares any commit information to prepare to be pushed. It does not push! It allows for a message (-m) to be given and show up in the github repo
+4.git push
+	This will push your changes to the master, so the next time someone runs git pull your file changes will be copied to their machine. 
+
+
